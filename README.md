@@ -1,2 +1,3 @@
-# oop
-Object Oriented Programming in Java from Udacity
+## oop
+
+#### Object Oriented Programming course from Udacity
