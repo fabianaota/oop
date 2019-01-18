@@ -18,13 +18,13 @@ public class Main {
             game.guessLetter();
         }
         if(game.hasWon()){
-            System.out.println("You win!");
+            System.out.println("YOU WIN!");
             System.out.println("You have guessed " + game.getMovieTitle() + " correctly.");
         }
         else{
             System.out.println("You have guessed (" + game.getWrongLetters().length()/2 + ") wrong letters:" +
                     game.getWrongLetters());
-            System.out.println("You lost!");
+            System.out.println("YOU LOST!");
             System.out.println("The movie title was " + game.getMovieTitle());
             System.out.println("GAME OVER.");
         }

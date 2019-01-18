@@ -14,9 +14,8 @@ public class Movie {
         try {
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
-                movies.add(scanner.nextLine());
+                movies.add(scanner.nextLine ());
             }
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

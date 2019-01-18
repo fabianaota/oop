@@ -26,7 +26,7 @@ public class Game {
             return guessMovie.replaceAll("[a-zA-Z]", "_");
         }
         else {
-            return guessMovie.replaceAll("[a-zA-Z && [^" + rightLetters +"]]", "_");
+            return guessMovie.replaceAll("[^" + rightLetters + "\\s]", "_");
         }
     }
 
